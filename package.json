@@ -1,0 +1,27 @@
+{
+  "name": "cmcengine",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "async": "^2.5.0",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "~1.16.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.0",
+    "ejs": "~2.5.5",
+    "express": "~4.14.1",
+    "express-session": "^1.15.6",
+    "express-ws": "^3.0.0",
+    "jade": "*",
+    "jsreport-browser-client-dist": "^1.0.4",
+    "jsreport-ejs": "^1.0.4",
+    "moment": "^2.18.1",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.2",
+    "socket.io": "^1.7.3",
+    "ws": "^2.2.3"
+  }
+}
